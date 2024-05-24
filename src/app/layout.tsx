@@ -4,6 +4,7 @@ import "./globals.css";
 // componentes
 import Header from "../components/Header";
 import PageTransition from "@/components/PageTransition";
+import StairTransiotion from './../components/StairTransiotion';
 
 /* Idealizando a fonte "jetbrainMono" */
 
@@ -25,9 +26,11 @@ export default function RootLayout({children}: Readonly<
       <body className={jetbrainsMono.variable}>
         
         <Header />
-        <PageTransition>{ children }</PageTransition>
-
         
+        <StairTransiotion />
+        
+        <PageTransition>{ children }</PageTransition>
+    
         </body>
     </html>
   );
