@@ -61,39 +61,24 @@ const experience = {
       position: "Frontend Developer",
       duration: "2024"
     },
-    {
-      company: "Projetos particulares",
-      position: "Frontend Developer",
-      duration: "2024"
-    },
-    {
-      company: "Projetos particulares",
-      position: "Frontend Developer",
-      duration: "2024"
-    },
-    {
-      company: "Projetos particulares",
-      position: "Frontend Developer",
-      duration: "2024"
-    },
   ],
 };
 
 //education data
 const education = {
   icon: "/assets/resume/cap.svg",
-  title: "My education",
+  title: "Minha educação",
   description:
-  "sodfjopsdkfoskdfposdkfposdfopksdofsdfkopsdfkopsdf",
+  "Desenvolvedor Web e estudante de Análise e Desenvolvimento de Sistemas na Universidade Santa Cruz do Sul (UNISC).",
   items: [
     {
       institution: "Universidade de Santa Cruz do Sul",
-      position: "Estudante",
+      position: "Analise e Desenvolvimento de Sistemas",
       duration: "2024",
     },
     {
       institution: "NodeBR",
-      position: "Imersão em desenvolvimento de APIs com Node.js",
+      position: "Desenvolvimento de APIs com Node.js",
       duration: "2024",
     },
   ]
@@ -166,7 +151,7 @@ const Sobre = () => {
       <div className="mx-auto container">
         <Tabs 
         defaultValue="experience" 
-        className="flex flex-col xl:flex-row space-y-2">
+        className="flex flex-col xl:flex-row gap-[60px]">
           <TabsList className="flex flex-col w-full max-w-380px mx-auto xl:mx-0 gap-6">
             <TabsTrigger value="experience">Experiencia</TabsTrigger>
             <TabsTrigger value="education">Educação</TabsTrigger>
@@ -178,7 +163,7 @@ const Sobre = () => {
           <div className="min-h-[70vh] w-full">
           {/* experiencia */}
           <TabsContent value="experience" className="w-full">
-            <div className="flex flex-col space-y-2 text-center xl:text-left">
+            <div className="flex flex-col gap-[30px] text-center xl:text-left">
               <h3 className="text-4xl font-bold">{experience.title}</h3>
               <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{experience.description}
               </p>
@@ -187,14 +172,14 @@ const Sobre = () => {
                   {experience.items.map((item, index)=> {
                     return (
                       <li key={index}
-                      className="bg-[#232329] h-[184px]"
+                      className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
                       >
                           <span className="text-accent">{item.duration}</span>
-                          <h3 className="text-xl max-w-[260px]">{item.position}</h3>
+                          <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">{item.position}</h3>
                           <div className="flex items-center gap-3">
                             {/* dot */}
                             <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
-                            <p>{item.company}</p>
+                            <p className="text-white/60">{item.company}</p>
                           </div>
                       </li>
                     )
@@ -203,15 +188,41 @@ const Sobre = () => {
               </ScrollArea>
             </div>
           </TabsContent>
-          
           {/* educação */}
-          <TabsContent value="education" className="w-full">educacao</TabsContent>
-          
+          <TabsContent value="education" className="w-full">
+          <div className="flex flex-col gap-[30px] text-center xl:text-left">
+              <h3 className="text-4xl font-bold">{education.title}</h3>
+              <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{education.description}
+              </p>
+              <ScrollArea className="h-[400px]">
+                <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
+                  {education.items.map((item, index)=> {
+                    return (
+                      <li key={index}
+                      className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
+                      >
+                          <span className="text-accent">{item.duration}</span>
+                          <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">{item.position}</h3>
+                          <div className="flex items-center gap-3">
+                            {/* dot */}
+                            <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
+                            <p className="text-white/60">{item.institution}</p>
+                          </div>
+                      </li>
+                    )
+                  })}
+                </ul>
+              </ScrollArea>
+            </div>
+            </TabsContent>
           {/* habilidades */}
-          <TabsContent value="skills" className="w-full">habilidades</TabsContent>
-          
+          <TabsContent value="skills" className="w-full">
+            habilidades
+            </TabsContent>
           {/* sobre mim */}
-          <TabsContent value="about me" className="w-full">sobre mim</TabsContent>
+          <TabsContent value="about me" className="w-full">
+            sobre mim
+            </TabsContent>
           </div>
         </Tabs>
       </div>
