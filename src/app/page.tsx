@@ -9,14 +9,14 @@ const Home = () => {
   <section className="h-full">
     <div className="container mx-auto h-full">
       <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
-        {/* text */}
+        {/* texto */}
         <div className="text-center xl:text-left order-2 xl:order-none">
           <span className="text-xl">Front-end Developer</span>
           <h1 className="h1 mb-6">
             Olá sou <br/>
             <span className="text-accent">Andrei Zebrowski</span>
             </h1>
-          <p className="max-w-[500px] mb-9 text-white/80">Sou estudando e desenvolvedor Front-end apaixonado por tecnologia e com uma insaciável vontade de aprender.
+          <p className="max-w-[500px] mb-9 text-white/80">Sou estudante e desenvolvedor Front-end apaixonado por tecnologia e com uma insaciável vontade de aprender.
           </p>
           <div className="flex flex-col xl:flex-row items-center gap-8">
             <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
@@ -28,7 +28,7 @@ const Home = () => {
               </div>
           </div>
         </div>
-        {/* photo */}
+        {/* foto */}
         <div className="order-1 xl:order-none mb-8 xl:mb-0">
           <Photo />
         </div>
