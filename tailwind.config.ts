@@ -6,7 +6,8 @@ const config: Config = {
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx}',
   ],
   prefix: "",
   theme: {
@@ -45,22 +46,6 @@ const config: Config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
-      minHeight: {
-        '70vh': '70vh',
-        '80vh': '80vh',
-      },
-      maxWidth: {
-        '380px': '380px',
-        '600px': '600px',
-      },
-      gap: {
-        '30px': '30px',
-        '60px': '60px',
-      },
-    },
-    minHeight: {
-      '70vh': '70vh',
-      '80vh': '80vh',
     },
   },
   plugins: [require("tailwindcss-animate")],
