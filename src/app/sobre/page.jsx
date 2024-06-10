@@ -34,13 +34,14 @@ const about = {
       fieldValue: "Brasileiro"
     },
     {
-      fieldName: "Email",
-      fieldValue: "andreimendes8@gmail.com"
-    },
-    {
       fieldName: "Freelance",
       fieldValue: "Disponível"
     },
+    {
+      fieldName: "Email",
+      fieldValue: "andreimendes8@gmail.com"
+    },
+    
   ]
 };
 
@@ -203,13 +204,13 @@ const Sobre = () => {
                       className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
                       >
                           <span className="text-accent">{item.duration}</span>
-                          <h3 className="text-balance max-w-[260px] min-h-[60px] text-center lg:text-left">
+                          <h3 className="text-sm max-w-[260px] min-h-[60px] text-center lg:text-left ">
                             {item.position}
                             </h3>
                           <div className="flex items-center gap-3">
                             {/* dot */}
                             <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
-                            <p className="text-white/60">
+                            <p className="text-white/60 text-xs">
                             {item.institution}
                             </p>
                           </div>
