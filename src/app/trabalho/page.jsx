@@ -12,6 +12,7 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 
 import Link from "next/link";
 import Image from "next/image";
+import { WorkSliderBtns } from "@/components/WorkSliderBtns";
 
 const projects = [
   {
@@ -20,7 +21,7 @@ const projects = [
     title: "projeto 1",
     description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, ratione.",
     stack: [{ name: "Next.js"}, { name: "Tailwind"}],
-    image: "/assets/work/3d-projeto-web.png",
+    image: "/assets/work/project-web.png",
     live: "",
     github: "",
   },
@@ -30,7 +31,7 @@ const projects = [
     title: "projeto 1",
     description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, ratione.",
     stack: [{ name: "Javascript"}, { name: "Tailwind"}, { name: "Next.js"}],
-    image: "/assets/work/3d-projeto-web.png",
+    image: "/assets/work/project-web.png",
     live: "",
     github: "",
   },
@@ -48,7 +49,14 @@ const handlesSlideChange = (swiper) => {
   setProject(projects[currentIndex]);
 }
 
-  return <motion.section initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0">
+  return <motion.section 
+  initial={{ opacity: 0 }} 
+  animate={{ 
+    opacity: 1, 
+    transition: {delay: 2.4, duration: 0.4, ease: "easeIn"} 
+  }} 
+  className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0"
+  >
     <div className="container mx-auto">
       <div className="flex flex-col xl:flex-row xl:gap-[30px]">
         <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
@@ -118,16 +126,21 @@ const handlesSlideChange = (swiper) => {
                 <SwiperSlide key={index} className="w-full">
                   <div className="h-[460px] relative group flex justify-center items-center bg-pink-50/20">
                   {/* sobreposição */}
-                  <div></div>
+                  <div className="absolute top-0 bottom-0 w-full bg-black/10 z-10"></div>
                   {/* imagem */}
                   <div className="relative w-full h-full">
-                    <Image src={project.image} fill className="object-cover"
+                    <Image 
+                    src={project.image} 
+                    fill 
+                    className="object-cover"
                     alt="" />
                   </div>
                   </div>
                 </SwiperSlide>
               )
             })}
+            {/* botoes de slider */}
+            <WorkSliderBtns />
             </Swiper>
           </div>
       </div>
