@@ -16,7 +16,7 @@ export default function Header() {
 
       <div className="hidden xl:flex items-center gap-8">
       <Nav/>
-      <Link href="/contact">
+      <Link href="https://wa.me/5551999172556" target="_blank">
         <Button>Contrate-me</Button>
       </Link>
       </div>
