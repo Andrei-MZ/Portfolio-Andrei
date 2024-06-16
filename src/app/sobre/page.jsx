@@ -15,7 +15,7 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "Sobre mim",
   description:
-  "okgopdfkgopkdogpkdfpogopdfkgpodfgodfopgkdpfgkpodfkgpodfkgpokdfgpokdfogkdfopgdf.",
+  "Olá, sou Andrei Zebrowski, um desenvolvedor Front-end apaixonado por tecnologia e inovação. Atualmente, estudo desenvolvimento Front-end e aprimoro minhas habilidades em HTML, CSS, JavaScript, React e Next.js. Meu objetivo é evoluir continuamente como desenvolvedor e contribuir para projetos inovadores. Sempre busco novas oportunidades para crescer e colaborar com profissionais que compartilham a mesma paixão pela tecnologia.",
   info: [
     {
       fieldName: "Nome",
@@ -49,7 +49,7 @@ const about = {
 const experience = {
   icon: '/assets/resume/badge.svg',
   title: 'Minhas experiencias',
-  description: "No âmbito técnico, meu trabalho atualmente está focado em tecnologias baseadas em JavaScript, e utilizar frameworks de Next.js e Nuxt, para o backend estou estudando Node.js. Também gosto de bibliotecas especializadas para reutilização de componentes e estilização.",
+  description: "No âmbito técnico, meu trabalho atualmente está focado em tecnologias baseadas em JavaScript, e utilizar frameworks de Next.js e Nuxt, para o backend estou estudando Node.js.",
   items: [
     {
       company: "Ria Sistemas - Voudoar.ai",
@@ -88,7 +88,7 @@ const education = {
 const skills = {
   title: "Minhas habilidades",
   description:
-  "psdlfgpsdflgpdflgpldfpgdfpgpdfglpdflgpdlfgpdflpgd",
+  "Tecnologias que uso e estudo diariamente:",
   skillList: [
     {
       icon: <FaHtml5 />,
