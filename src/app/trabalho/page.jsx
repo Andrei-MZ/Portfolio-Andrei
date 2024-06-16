@@ -22,8 +22,8 @@ const projects = [
     description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, ratione.",
     stack: [{ name: "Next.js"}, { name: "Tailwind"}],
     image: "/assets/work/project-web.png",
-    live: "",
-    github: "",
+    live: "https://3d-web-teste.vercel.app/",
+    github: "https://github.com/Andrei-MZ/3d-web-teste",
   },
   {
     num: "02",
@@ -87,7 +87,7 @@ const handlesSlideChange = (swiper) => {
             {/* botoes */}
             <div className="flex items-center gap-4">
               {/* botao para o projeto deploy */}
-              <Link href={project.live}>
+              <Link href={project.live} target="_blank">
               <TooltipProvider delayDuration={100}> 
                 <Tooltip>
                   <TooltipTrigger className="w-[60px] h-[60px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -100,7 +100,7 @@ const handlesSlideChange = (swiper) => {
               </TooltipProvider>
               </Link>
               {/* botao para o projeto github */}
-              <Link href={project.github}>
+              <Link href={project.github} target="_blank">
               <TooltipProvider delayDuration={100}> 
                 <Tooltip>
                   <TooltipTrigger className="w-[60px] h-[60px] rounded-full bg-white/5 flex justify-center items-center group">
