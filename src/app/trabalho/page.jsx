@@ -21,7 +21,7 @@ const projects = [
     title: "projeto 1",
     description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, ratione.",
     stack: [{ name: "Next.js"}, { name: "Tailwind"}],
-    image: '/assets/photo.png',
+    image: '/assets/thumb1.png',
     live: "https://3d-web-teste.vercel.app/",
     github: "https://github.com/Andrei-MZ/3d-web-teste",
   },
