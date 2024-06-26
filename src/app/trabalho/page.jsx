@@ -19,7 +19,7 @@ const projects = [
     num: "01",
     category: "frontend",
     title: "projeto 1",
-    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, ratione.",
+    description: "Landing Page simples com animação 3d",
     stack: [{ name: "Next.js"}, { name: "Tailwind"}],
     image: '/assets/work/thumb1.png',
     live: "https://3d-web-teste.vercel.app/",
@@ -28,12 +28,12 @@ const projects = [
   {
     num: "02",
     category: "frontend",
-    title: "projeto 1",
-    description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus, ratione.",
-    stack: [{ name: "Javascript"}, { name: "Tailwind"}, { name: "Next.js"}],
-    image: "/assets/work/thumb1.png",
-    live: "",
-    github: "",
+    title: "projeto 2",
+    description: "Desenvolvi um clássico Jogo da Velha utilizando React e estilizei com Tailwind CSS.",
+    stack: [{ name: "Javascript"}, { name: "Tailwind"}, { name: "React"}],
+    image: "/assets/work/thumb2.png",
+    live: "https://desafio-jogo-da-velha.vercel.app/",
+    github: "https://github.com/Andrei-MZ/desafio-jogo-da-velha",
   },
 ];
 

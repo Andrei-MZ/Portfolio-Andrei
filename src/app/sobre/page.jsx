@@ -49,16 +49,16 @@ const about = {
 const experience = {
   icon: '/assets/resume/badge.svg',
   title: 'Minhas experiencias',
-  description: "No âmbito técnico, meu trabalho atualmente está focado em tecnologias baseadas em JavaScript, e utilizar frameworks de Next.js e Nuxt, para o backend estou estudando Node.js.",
+  description: "No âmbito técnico, meu trabalho atualmente está focado em tecnologias baseadas em JavaScript, e utilizar frameworks de Next.js e React, para o backend estou estudando Node.js.",
   items: [
     {
       company: "Ria Sistemas - Voudoar.ai",
-      position: "Frontend Developer",
+      position: "Desenvolvedor Frontend",
       duration: "2024/04 - Presente"
     },
     {
       company: "Projetos particulares",
-      position: "Frontend Developer",
+      position: "Desenvolvedor Frontend",
       duration: "2024"
     },
   ],

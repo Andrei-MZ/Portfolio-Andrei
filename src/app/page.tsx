@@ -16,7 +16,7 @@ const Home = () => {
             Olá sou <br/>
             <span className="text-accent">Andrei Zebrowski</span>
             </h1>
-          <p className="max-w-[500px] mb-9 text-white/80">Sou estudante e desenvolvedor Front-end apaixonado por tecnologia e com uma insaciável vontade de aprender.
+          <p className="max-w-[500px] mb-9 text-white/80">Desenvolvedor Web focado em desenvolver páginas responsivas⚡️.
           </p>
           <div className="flex flex-col xl:flex-row items-center gap-8">
             <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
