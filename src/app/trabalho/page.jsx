@@ -19,7 +19,7 @@ const projects = [
     num: "01",
     category: "frontend",
     title: "projeto 1",
-    description: "Landing Page simples com animação 3d",
+    description: "Landing Page simples com animação 3d, interação e responsiva",
     stack: [{ name: "Next.js"}, { name: "Tailwind"}],
     image: '/assets/work/thumb1.png',
     live: "https://3d-web-teste.vercel.app/",
@@ -34,6 +34,16 @@ const projects = [
     image: "/assets/work/thumb2.png",
     live: "https://desafio-jogo-da-velha.vercel.app/",
     github: "https://github.com/Andrei-MZ/desafio-jogo-da-velha",
+  },
+  {
+    num: "03",
+    category: "Full stack",
+    title: "projeto 3",
+    description: "Uma versão simplificada de um painel financeiro que possui: Uma página inicial, Uma página de login, Páginas de painel proteginas por autenticação, a capacidade dos usuários de adicionar, editar e excluir faturas e também contém um Banco de dados",
+    stack: [{ name: "Javascript"}, { name: "Tailwind"}, { name: "Nextjs"}, { name: "React"}, { name: "PostgresSQL"}],
+    image: "/assets/work/thumb3.png",
+    live: "https://nextjs-dashboard-wine-eight-63.vercel.app/",
+    github: "https://github.com/Andrei-MZ/nextjs-dashboard",
   },
 ];
 
