@@ -15,7 +15,7 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "Sobre mim",
   description:
-  "Olá sou Andrei, um desenvolvedor de software e estudando de Analise e Desenvolvimento de Sistemas com um forte foco em desenvolvimento Frontend. Minha principal especialização é Nextjs, nas quais utilizo meu conhecimento em Javascript para criar aplicações Frontend e diversos tipos de soluções de software. Em minha jornada profissional tive oportunidade de participar de um projeto voluntario, utilizando Nuxt e Sass, mas também tenho experiências em projetos particulares com Next, React e Javascript.",
+  "Olá sou Andrei, um desenvolvedor de software e estudante de Análise e Desenvolvimento de Sistemas com um forte foco em desenvolvimento Frontend. Minha principal especialização é Nextjs, nas quais utilizo meu conhecimento em Javascript para criar aplicações Frontend e diversos tipos de soluções de software. Em minha jornada profissional tive oportunidade de participar de um projeto voluntário, utilizando Nuxt e Sass, mas também tenho experiências em projetos particulares com Next, React e Javascript.",
   info: [
     {
       fieldName: "Nome",
@@ -23,7 +23,7 @@ const about = {
     },
     {
       fieldName: "Telefone",
-      fieldValue: "(+51) 9 9917-2556"
+      fieldValue: "(51) 9 9917-2556"
     },
     {
       fieldName: "Experiencia",
