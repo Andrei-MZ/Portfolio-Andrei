@@ -27,7 +27,7 @@ const projects = [
   },
   {
     num: "02",
-    category: "Full stack - Dashboard design",
+    category: "Full stack - Dashboard design / em construção",
     title: "projeto 2",
     description: "Uma versão simplificada de um painel financeiro que possui: Uma página inicial, Uma página de login, Páginas de painel proteginas por autenticação, a capacidade dos usuários de adicionar, editar e excluir faturas e também contém um Banco de dados",
     stack: [{ name: "Javascript"}, { name: "Tailwind"}, { name: "Nextjs"}, { name: "React"}, { name: "PostgresSQL"}],
