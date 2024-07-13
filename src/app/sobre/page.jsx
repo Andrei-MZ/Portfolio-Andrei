@@ -54,7 +54,7 @@ const experience = {
     {
       company: "Ria Sistemas - Voudoar.ai",
       position: "Desenvolvedor Frontend",
-      duration: "2024/04 - Presente"
+      duration: "2024/04 - 2024/06 "
     },
     {
       company: "Projetos particulares",
