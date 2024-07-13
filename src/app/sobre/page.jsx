@@ -15,7 +15,7 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "Sobre mim",
   description:
-  "Olá, sou Andrei Zebrowski, um desenvolvedor Front-end apaixonado por tecnologia e inovação. Atualmente, estudo desenvolvimento Front-end e aprimoro minhas habilidades em HTML, CSS, JavaScript, React e Next.js. Meu objetivo é evoluir continuamente como desenvolvedor e contribuir para projetos inovadores. Sempre busco novas oportunidades para crescer e colaborar com profissionais que compartilham a mesma paixão pela tecnologia.",
+  "Olá sou Andrei, um desenvolvedor de software com um forte foco em desenvolvimento frontend. Minha principal especialização é Nextjs, nas quais utilizo meu conhecimento em Javascript para criar aplicações frontend e diversos tipos de soluções de software. Em minha jornada profissional tive oportunidade de participar de um projeto voluntario, utilizando Nuxt e Sass, mas também tenho experiencias em projetos particulares com Next, React e Javascript.",
   info: [
     {
       fieldName: "Nome",
