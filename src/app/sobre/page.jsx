@@ -4,8 +4,7 @@ import {
   FaHtml5,
   FaJs, 
   FaReact, 
-  FaNodeJs, 
-  FaVuejs,
+  FaNodeJs,
   FaCss3, 
 } from "react-icons/fa";
 
@@ -117,10 +116,6 @@ const skills = {
     {
       icon: <FaNodeJs />,
       name: "node.js",
-    },
-    {
-      icon: <FaVuejs />,
-      name: "vue",
     },
   ],
 };
