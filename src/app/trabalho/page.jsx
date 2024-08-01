@@ -39,7 +39,7 @@ const projects = [
     num: "03",
     category: "Frontend - Landing Page",
     title: "projeto 3",
-    description: "Landing Page simples com animação 3d, interação e responsiva",
+    description: "Landing Page simples com animação 3d, interação e responsiva para estudos e noções básicas para landing page",
     stack: [{ name: "Next.js"}, { name: "Tailwind"}],
     image: '/assets/work/thumb1.png',
     live: "https://3d-web-teste.vercel.app/",
@@ -86,7 +86,7 @@ const handlesSlideChange = (swiper) => {
           </div>
           {/* categorias dos projetos */}
           <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
-            {project.category} projeto
+            {project.category}
             </h2>
             {/* descrição dos projetos */}
             <p className="text-white/60">{project.description}</p>
